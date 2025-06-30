@@ -1,57 +1,47 @@
-# configure-adAdd commentMore actions
-<p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
-</p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+<h1 align="center">Implementing a Managed Network Switch to Monitor All Traffic on Home Network</h1>
+
+![image](https://github.com/user-attachments/assets/4e26b68d-1817-49a9-b553-5f08876c22a8)
 
 
-<h2>Video Demonstration</h2>
+<h2>Project Overview</h2>
+In this project, I will be using a managed network switch that supports "port-mirroring" to monitor all internet traffic that flows through my router in my home network. The traffic will be monitored on Windows 10 PC using the packet sniffing software, "Wireshark." This particular setup has various possible applications, mostly related to network security.<br />
 
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
 
+<h2>Visual Representation of Changes to Home Network Setup</h2>
+
+<h3>Before:</h3>
+
+![normalsetup](https://github.com/user-attachments/assets/cb9e02d9-5be2-49ad-94ba-127c2725463c)
+
+<h3>After Implementation of Network Switch:</h3>
+
+![network_diag_w_switch](https://github.com/user-attachments/assets/e26ebcc9-8d42-4767-97fb-c83862ce277e)
+ 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Active Directory Domain Services
-- PowerShell
+- Wireshark (Packet Sniffer)
+- "Smart/Web Managed" Network Switch
+- Google Chrome (Used to configure settings on "web-managed" network switch)
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server 2022
-- Windows 10 (21H2)
+- Windows 10 Pro
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h1>Deployment and Configuration</h1>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+<h3>Step 1: Install Wireshark on PC used for Monitoring Traffic</h3>
+Navigate to https://www.wireshark.org/download.html to download Wireshark.
 
-<h2>Deployment and Configuration Steps</h2>
+<h3>Step 2: Installation of Appropriate Network Switch</h3>
+The next step is to ensure you have the appropriate network switch for this setup. This particular setup requires either a "smart-managed" or a "fully managed" switch that supports port mirroring. The switch I will be using in this demonstration is a "smart managed" switch that can be configured using a web browser of a device on the same subnet (my Windows 10 PC.) 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+This switch has 5 ports:
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- Port 1 will be used to connect the modem 
+- Port 2 will be used to connect the router
+- Port 3 will be used to connect to the PC with Wireshark installed (the packet sniffer).
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h3>Step 2: Manually configuring the Subnet of the PC</h3>
+<h3>Step 3:</h3>
+<h3>Step 4:</h3>
