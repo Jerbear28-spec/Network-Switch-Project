@@ -28,7 +28,7 @@ In this project, I will be using a managed network switch that supports "port-mi
 
 - Windows 10 Pro
 
-<h1>Deployment and Configuration</h1>
+<h1>Step-by-step Deployment and Configuration</h1>
 
 <h3>Step 1: Install Wireshark on PC you wish to use as traffic monitor</h3>
 
