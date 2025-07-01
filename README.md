@@ -5,8 +5,7 @@
 
 
 <h2>Project Overview</h2>
-In this project, I will be using a managed network switch that supports "port-mirroring" to monitor all internet traffic that flows through my router in my home network. The traffic will be monitored on Windows 10 PC using the packet sniffing software, "Wireshark." This particular setup has various possible applications, mostly related to network security.<br />
-
+In this project, all network traffic that flows through the router of a home network will be monitored using a managed network switch that supports "port-mirroring." The traffic will be monitored on a Windows 10 PC using the packet sniffing software, "Wireshark." This particular setup has various possible applications, mostly related to network security.<br />
 
 <h2>Visual Representation of Changes to Home Network Setup</h2>
 
