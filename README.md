@@ -99,5 +99,5 @@ Right click on the Local Area Connection and click "Properties".
 <h3>Step 5: Monitor Network Traffic using Wireshark</h3>
 
 <p>
- 
+ Open Wireshark. There should be a connection showing traffic. This is all of the traffic going to and from the router (port 2). From here, you can filter by
 </p>
