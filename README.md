@@ -85,5 +85,19 @@ Right click on the Local Area Connection and click "Properties".
 ![webnavigation](https://github.com/user-attachments/assets/003e1da5-4f90-42eb-a763-415bfe02cc6f)
 
 <p>
- The default landing page should
+ The switch's webpage will ask you to set a password the first time you access it. If you forget your password, you will have to reset the switch. 
+</p>
+
+(insert picture of switch password screen)
+
+<p>
+ Navigate to 
+</p>
+
+(picture of correct settings config)
+
+<h3>Step 5: Monitor Network Traffic using Wireshark</h3>
+
+<p>
+ 
 </p>
