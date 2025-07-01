@@ -21,7 +21,7 @@ In this project, I will be using a managed network switch that supports "port-mi
 <h2>Environments and Technologies Used</h2>
 
 - Wireshark (Packet Sniffer)
-- "Smart/Web Managed" Network Switch
+- "Web-Managed" Network Switch
 - Google Chrome (Used to configure settings on "web-managed" network switch)
 
 <h2>Operating Systems Used </h2>
@@ -31,6 +31,7 @@ In this project, I will be using a managed network switch that supports "port-mi
 <h1>Deployment and Configuration</h1>
 
 <h3>Step 1: Install Wireshark on PC you wish to use as traffic monitor</h3>
+
 <p>
 Navigate to https://www.wireshark.org/download.html to download Wireshark. Run the installation wizard using the default selections.
 </p>
@@ -39,18 +40,18 @@ Navigate to https://www.wireshark.org/download.html to download Wireshark. Run t
 
 <h3>Step 2: Installation of Appropriate Network Switch</h3>
 <p>
-The next step is to ensure you have the appropriate network switch for this setup. This particular setup requires either a "smart-managed" or a "fully managed" switch that supports port mirroring. The switch I will be using in this demonstration is a "smart managed" switch that can be configured using a web browser of a device on the same subnet (my Windows 10 PC.) Specifically, I am using a Goalake Web-Managed Switch Model: GS105 V1.
+The next step is to ensure you have the appropriate network switch for this setup. This particular setup requires either a "smart-managed" or a "fully-managed" switch that supports port mirroring. The switch used in this demonstration is a "smart managed" switch that can be configured using a web browser of a device on the same subnet (in this case, a Windows 10 PC.) Specifically, I am using a Goalake Web-Managed Switch Model: GS105 V1.
 </p>
    
 ![image](https://github.com/user-attachments/assets/38483e11-a8f4-4cb0-974f-51fc678a19be)
 
-This switch has 5 ports:
+This particular network switch has 5 ports:
 
 - Port 1 will be used to connect the modem 
 - Port 2 will be used to connect the router
-- Port 3 will be used to connect to the PC with Wireshark installed (the packet sniffer).
+- Port 3 will be used to connect to the PC with the packet sniffer installed (Wireshark).
 
-<h3>Step 3: Manually Configuring the Subnet of the PC</h3>
+<h3>Step 3: Manually Configuring the Subnet of the Windows 10 PC</h3>
 <p>
 Open "Network and Sharing Center" and click "Change Adapter Settings" on the left
 </p>
@@ -75,7 +76,7 @@ Right click on the Local Area Connection and click "Properties".
 
 ![image](https://github.com/user-attachments/assets/a7d15650-fa51-480d-accd-8e081feb5013)
 
-<h3>Step 4: Use Browser to Navigate to Switch Settings</h3>
+<h3>Step 4: Enabling "Port-Mirroring" on Network Switch</h3>
 
 <p>
  Using a web browser, navigate to "10.0.0.10"
@@ -83,8 +84,6 @@ Right click on the Local Area Connection and click "Properties".
 
 ![webnavigation](https://github.com/user-attachments/assets/003e1da5-4f90-42eb-a763-415bfe02cc6f)
 
-<h3>Step 5: Configuring Port-Mirroring</h3>
-
 <p>
- 
+ The default landing page should
 </p>
