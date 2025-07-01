@@ -39,7 +39,7 @@ Navigate to https://www.wireshark.org/download.html to download Wireshark. Run t
 
 <h3>Step 2: Installation of Appropriate Network Switch</h3>
 <p>
-The next step is to ensure you have the appropriate network switch for this setup. This particular setup requires either a "smart-managed" or a "fully-managed" switch that supports port mirroring. The switch used in this demonstration is a "smart managed" switch that can be configured using a web browser of a device on the same subnet (in this case, a Windows 10 PC.) Specifically, I am using a Goalake Web-Managed Switch Model: GS105 V1.
+The next step is to ensure you have the appropriate network switch for this setup. This particular setup requires either a "smart-managed" or a "fully-managed" switch that supports port mirroring. The switch used in this demonstration is a "smart managed" switch that can be configured using a web browser on a device that is on the same subnet (in this demonstration, a Windows 10 PC.) Specifically, I am using a Goalake Web-Managed Switch Model: GS105 V1.
 </p>
    
 ![image](https://github.com/user-attachments/assets/38483e11-a8f4-4cb0-974f-51fc678a19be)
@@ -50,9 +50,13 @@ This particular network switch has 5 ports:
 - Port 2 will be used to connect the router
 - Port 3 will be used to connect to the PC with the packet sniffer installed (Wireshark).
 
-<h3>Step 3: Manually Configuring the Subnet of the Windows 10 PC</h3>
 <p>
-Open "Network and Sharing Center" and click "Change Adapter Settings" on the left
+ This switch has a POE (power-over-ethernet) port, which can supply power to the switch. In this setup, the switch is powered by a separate power cable that is plugged into an outlet.
+</p>
+
+<h3>Step 3: Manually Configuring the Subnet of a Windows 10 PC</h3>
+<p>
+Open "Network and Sharing Center" and click "Change Adapter Settings" on the left.
 </p>
 
 ![network and sharing](https://github.com/user-attachments/assets/5d4d876e-8184-4bc9-a5ff-c8a85799d6b4)
