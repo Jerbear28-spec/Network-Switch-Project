@@ -9,7 +9,7 @@ In this project, all network traffic that flows through the router of a home net
 
 <h2>Visual Representation of Changes to Home Network Setup</h2>
 
-<h3>Before (Typical Home Network Setup:</h3>
+<h3>Before (Typical Home Network Setup):</h3>
 
 ![normalsetup](https://github.com/user-attachments/assets/cb9e02d9-5be2-49ad-94ba-127c2725463c)
 
