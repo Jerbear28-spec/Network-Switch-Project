@@ -97,10 +97,30 @@ Right click on the Local Area Connection and click "Properties".
  Navigate to the switches "Port Mirroring" settings. Set the "Capture" port to port 3 (the port that connects to the PC) and set the "Captured" port to Port 2 (the port that connects the router.) This specific configuration will create a copy of every packet that goes through port 2 and send those copies to the PC via port 3.
 </p>
 
-
+![switchconfig](https://github.com/user-attachments/assets/483725d8-bae6-4897-9d10-24a01493a6b7)
 
 <h3>Step 5: Monitor Network Traffic using Wireshark</h3>
 
 <p>
  Open Wireshark. There should be a connection showing traffic. This is all of the traffic going to and from the router (port 2). From here, you can filter by
+</p>
+
+![wiresharkconnection](https://github.com/user-attachments/assets/b605a7ba-aef7-4c7f-b82c-765e5e24c474)
+
+<p>
+ Click on the connection that is showing traffic (not the loopback connection.) This will display every packet that is coming from or going to your router.
+</p>
+
+![wiresharkcapture](https://github.com/user-attachments/assets/8687d576-4917-4e35-b389-2c2d55f4bea6)
+
+<p>
+ From here, traffic can be filtered by IPV6 addresses, protocol, and port number. Filters can also be combined using logical operators such as:
+</p>
+
+- and (&&)
+- or (||)
+- not (!)
+
+<p>
+ Monitoring this traffic can be extremely useful. This setup allows the user to see exactly what devices are doing on the network, which websites are being accessed, and which services are running in the background. From a securty perspective, the network can now be monitored for malware, unauthorized access, or suspicious connections that can potentially harm the network.
 </p>
