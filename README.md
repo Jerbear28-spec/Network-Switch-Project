@@ -68,7 +68,7 @@ Right click on the Local Area Connection and click "Properties".
 ![rightclickconnection](https://github.com/user-attachments/assets/49582c72-5d1a-4723-8b7d-6eb0e5f72014)
 
 <p>
- Click on Internet Protocol Version 4 and click properties
+ Click on Internet Protocol Version 4 and click "Properties" again.
 </p>
 
 ![propertiespage](https://github.com/user-attachments/assets/440236e7-347e-42b6-9737-d37c2680fa95)
@@ -82,22 +82,22 @@ Right click on the Local Area Connection and click "Properties".
 <h3>Step 4: Enabling "Port-Mirroring" on Network Switch</h3>
 
 <p>
- Using a web browser, navigate to "10.0.0.10"
+ Using a web browser, navigate to the switches IP address, which in this case is "10.0.0.10"
 </p>
 
 ![webnavigation](https://github.com/user-attachments/assets/003e1da5-4f90-42eb-a763-415bfe02cc6f)
 
 <p>
- The switch's webpage will ask you to set a password the first time you access it. If you forget your password, you will have to reset the switch. 
+ The switch's webpage will ask you to set a password the first time you access it. If you forget your password, you will have to reset the switch. This switch also supports "cloud-based" configuration. If this is enabled, the switch's settings can be manipulated using a third-party application.
 </p>
 
-(insert picture of switch password screen)
+![switchpasswordlandingpage](https://github.com/user-attachments/assets/8fb050af-8f7c-4c8f-b758-ca39812c9c23)
 
 <p>
- Navigate to 
+ Navigate to the switches "Port Mirroring" settings. Set the "Capture" port to port 3 (the port that connects to the PC) and set the "Captured" port to Port 2 (the port that connects the router.) This specific configuration will create a copy of every packet that goes through port 2 and send those copies to the PC via port 3.
 </p>
 
-(picture of correct settings config)
+
 
 <h3>Step 5: Monitor Network Traffic using Wireshark</h3>
 
