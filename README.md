@@ -1,5 +1,5 @@
 
-<h1 align="center">Implementing a Managed Network Switch to Monitor All Traffic on Home Network</h1>
+<h1 align="center">Implementing a Managed Network Switch to Monitor All Traffic on a Home Network</h1>
 
 ![image](https://github.com/user-attachments/assets/4e26b68d-1817-49a9-b553-5f08876c22a8)
 
