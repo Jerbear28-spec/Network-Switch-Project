@@ -22,6 +22,7 @@ In this project, all network traffic that flows through the router of a home net
 - Wireshark (Packet Sniffer)
 - "Web-Managed" Network Switch
 - Google Chrome (Used to configure settings on "web-managed" network switch)
+- 3 Cat6 Ethernet Cables
 
 <h2>Operating Systems Used </h2>
 
@@ -29,7 +30,7 @@ In this project, all network traffic that flows through the router of a home net
 
 <h1>Step-by-step Deployment and Configuration</h1>
 
-<h3>Step 1: Install Wireshark on PC you wish to use as traffic monitor</h3>
+<h3>Step 1: Install Wireshark on PC that will be used as a traffic monitor</h3>
 
 <p>
 Navigate to https://www.wireshark.org/download.html to download Wireshark. Run the installation wizard using the default selections.
@@ -74,7 +75,7 @@ Right click on the Local Area Connection and click "Properties".
 ![propertiespage](https://github.com/user-attachments/assets/440236e7-347e-42b6-9737-d37c2680fa95)
 
 <p>
- Click on "Use the following IP address" and manually enter in the following IP address and Subnet mask. This subnet configuration is unique to this particular switch, different "web-managed" switch models may be different.
+ Click on "Use the following IP address:" and manually enter in the following IP address and Subnet mask. This subnet configuration is unique to this particular switch, other "web-managed" switch models may use different subnet masks.
 </p>
 
 ![image](https://github.com/user-attachments/assets/a7d15650-fa51-480d-accd-8e081feb5013)
@@ -88,13 +89,13 @@ Right click on the Local Area Connection and click "Properties".
 ![webnavigation](https://github.com/user-attachments/assets/003e1da5-4f90-42eb-a763-415bfe02cc6f)
 
 <p>
- The switch's webpage will ask you to set a password the first time you access it. If you forget your password, you will have to reset the switch. This switch also supports "cloud-based" configuration. If this is enabled, the switch's settings can be manipulated using a third-party application.
+ The switch's webpage will ask you to set a password the first time you access it. If you forget your password, you will have to reset the switch. This particular switch also supports "cloud-based" configuration. If this is enabled, the switch's settings can be manipulated using an application.
 </p>
 
 ![switchpasswordlandingpage](https://github.com/user-attachments/assets/8fb050af-8f7c-4c8f-b758-ca39812c9c23)
 
 <p>
- Navigate to the switches "Port Mirroring" settings. Set the "Capture" port to port 3 (the port that connects to the PC) and set the "Captured" port to Port 2 (the port that connects the router.) This specific configuration will create a copy of every packet that goes through port 2 and send those copies to the PC via port 3.
+ Navigate to the switch's "Port Mirroring" settings. Set the "Capture" port to port 3 (the port that connects to the PC) and set the "Captured" port to Port 2 (the port that connects the router.) This specific configuration will have the switch create a copy of every packet that goes through port 2 and send those copies to the PC via port 3.
 </p>
 
 ![switchconfig](https://github.com/user-attachments/assets/483725d8-bae6-4897-9d10-24a01493a6b7)
@@ -102,7 +103,7 @@ Right click on the Local Area Connection and click "Properties".
 <h3>Step 5: Monitor Network Traffic using Wireshark</h3>
 
 <p>
- Open Wireshark. There should be a connection showing traffic. This is all of the traffic going to and from the router (port 2). From here, you can filter by
+ Open Wireshark. There should be an active connection showing traffic. This is all of the traffic going to and from the router (mirrored from port 2).
 </p>
 
 ![wiresharkconnection](https://github.com/user-attachments/assets/b605a7ba-aef7-4c7f-b82c-765e5e24c474)
@@ -114,7 +115,7 @@ Right click on the Local Area Connection and click "Properties".
 ![wiresharkcapture](https://github.com/user-attachments/assets/8687d576-4917-4e35-b389-2c2d55f4bea6)
 
 <p>
- From here, traffic can be filtered by IPV6 addresses, protocol, and port number. Filters can also be combined using logical operators such as:
+ From here, traffic can be filtered by IPV6 addresses, protocols, and port numbers. Filters can also be combined using logical operators such as:
 </p>
 
 - and (&&)
