@@ -109,7 +109,7 @@ Right click on the Local Area Connection and click "Properties".
 ![wiresharkconnection](https://github.com/user-attachments/assets/b605a7ba-aef7-4c7f-b82c-765e5e24c474)
 
 <p>
- Click on the connection that is showing traffic (not the loopback connection.) This will display every packet that is coming from or going to your router.
+ Click on the connection that is showing traffic (not the loopback traffic capture.) This will display every packet that is coming from or going to your router.
 </p>
 
 ![wiresharkcapture](https://github.com/user-attachments/assets/8687d576-4917-4e35-b389-2c2d55f4bea6)
