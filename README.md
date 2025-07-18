@@ -135,11 +135,20 @@ A filter has been applied for ICMP traffic AND the IPV6 address of a device conn
 <img width="815" height="734" alt="demonstratincapturefilters" src="https://github.com/user-attachments/assets/13cd0c3c-5e6d-4b9d-972e-aba547d6ba8f" />
 
 <p>
- Now using the free app [PingTools](https://play.google.com/store/apps/details?id=ua.com.streamsoft.pingtools&hl=en_US&pli=1), the android phone will ping Google.com and Facebook.com repectively. Both the requests and the replies should show up.
+ Now using the free app PingTools, the android phone will now ping Google.com and Facebook.com repectively.
 </p>
 
-<img width="567" height="669" alt="demonstrationafterping_2" src="https://github.com/user-attachments/assets/ce8c381a-2d95-4f18-b789-d42090ed2541" />
+<h1 align="center">
+ 
+![screensh1](https://github.com/user-attachments/assets/e8ec723c-6766-4e67-90a3-9d6feda16223)
+
+![screensh2](https://github.com/user-attachments/assets/6acb7f2e-aead-4c3a-bc27-b66ab63e11d9)
+
+</h1>
 
 <p>
- This shows blah blah
+ The replies and requests of these pings should show up immediately, demonstrating that the setup works as intended.
 </p>
+
+<img width="567" height="669" alt="demonstrationafterping_2" src="https://github.com/user-attachments/assets/72336a98-51c0-4088-a152-31a754f08163" />
+
