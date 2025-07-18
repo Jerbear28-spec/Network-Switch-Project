@@ -129,5 +129,17 @@ Right click on the Local Area Connection and click "Properties".
 <h1>Demonstration</h1>
 
 <p>
-Now a filter will be applied using the IPV6 address of an android phone. This will only show the packets that have this IPV6 address as either a source or a destination.
+A filter has been applied for ICMP traffic AND the IPV6 address of a device connected to the router (android phone.) This filter will only show the packets of ICMP traffic that has this IPV6 address as either a source or a destination.
+</p>
+
+<img width="815" height="734" alt="demonstratincapturefilters" src="https://github.com/user-attachments/assets/13cd0c3c-5e6d-4b9d-972e-aba547d6ba8f" />
+
+<p>
+ Now using the free app [PingTools](https://play.google.com/store/apps/details?id=ua.com.streamsoft.pingtools&hl=en_US&pli=1), the android phone will ping Google.com and Facebook.com repectively. Both the requests and the replies should show up.
+</p>
+
+<img width="567" height="669" alt="demonstrationafterping_2" src="https://github.com/user-attachments/assets/ce8c381a-2d95-4f18-b789-d42090ed2541" />
+
+<p>
+ This shows blah blah
 </p>
