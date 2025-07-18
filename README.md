@@ -125,3 +125,9 @@ Right click on the Local Area Connection and click "Properties".
 <p>
  Monitoring this traffic can be extremely useful. This setup allows the user to see exactly what devices are doing on the network, which websites are being accessed, and which services are running in the background. From a securty perspective, the network can now be monitored for malware, unauthorized access, or suspicious connections that can potentially harm the network.
 </p>
+
+<h1>Demonstration</h1>
+
+<p>
+Now a filter will be applied using the IPV6 address of an android phone. This will only show the packets that have this IPV6 address as either a source or a destination.
+</p>
