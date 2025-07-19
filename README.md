@@ -12,13 +12,17 @@ In this project, all network traffic that flows through the router of a home net
 <h3>Before (Typical Home Network Setup):</h3>
 
 <h2 align="center">
+
 ![normalsetup](https://github.com/user-attachments/assets/cb9e02d9-5be2-49ad-94ba-127c2725463c)
+
 </h2>
 
 <h3>After Implementation of Network Switch:</h3>
 
 <h2 align="center">
+
 ![network_diag_w_switch](https://github.com/user-attachments/assets/e26ebcc9-8d42-4767-97fb-c83862ce277e)
+
 </h2>
  
 <h2>Environments and Technologies Used</h2>
