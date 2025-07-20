@@ -27,7 +27,7 @@ In this project, all network traffic that flows through the router of a home net
  
 <h2>Environments and Technologies Used</h2>
 
-- "Web-Managed" Network Switch
+- "Smart-Managed" Network Switch
 - 3 Cat6 Ethernet Cables
 - Wireshark (Packet Sniffer)
 - Google Chrome (Used to configure settings on "web-managed" network switch)
@@ -50,7 +50,7 @@ Navigate to https://www.wireshark.org/download.html to download Wireshark. Run t
 
 <h3>Step 2: Installation of Appropriate Network Switch</h3>
 <p>
-The next step is to ensure you have the appropriate network switch for this setup. This particular setup requires either a "smart-managed" or a "fully-managed" switch that supports port mirroring. The switch used in this demonstration is a "smart managed" switch that can be configured using a web browser on a device that is on the same subnet (in this demonstration, a Windows 10 PC.) Specifically, I am using a Goalake Web-Managed Switch Model: GS105 V1.
+The next step is to ensure you have the appropriate network switch for this setup. This particular setup requires either a "smart-managed" or a "fully-managed" switch that supports port mirroring. The switch used in this demonstration is a "smart-managed" switch that can be configured using a web browser on a device that is on the same subnet (in this demonstration, a Windows 10 PC.) Specifically, I am using a Goalake Web-Managed Switch Model: GS105 V1.
 </p>
    
 ![image](https://github.com/user-attachments/assets/38483e11-a8f4-4cb0-974f-51fc678a19be)
