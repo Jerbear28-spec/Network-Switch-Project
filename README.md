@@ -27,14 +27,16 @@ In this project, all network traffic that flows through the router of a home net
  
 <h2>Environments and Technologies Used</h2>
 
-- Wireshark (Packet Sniffer)
 - "Web-Managed" Network Switch
-- Google Chrome (Used to configure settings on "web-managed" network switch)
 - 3 Cat6 Ethernet Cables
-
+- Wireshark (Packet Sniffer)
+- Google Chrome (Used to configure settings on "web-managed" network switch)
+- PingTools (Networking tools application for Android)
+  
 <h2>Operating Systems Used </h2>
 
 - Windows 10 Pro
+- Android 15
 
 <h1>Step-by-step Deployment and Configuration</h1>
 
@@ -134,13 +136,17 @@ Right click on the Local Area Connection and click "Properties".
  Monitoring this traffic can be extremely useful. This setup allows the user to see exactly what devices are doing on the network, which websites are being accessed, and which services are running in the background. From a securty perspective, the network can now be monitored for malware, unauthorized access, or suspicious connections that can potentially harm the network.
 </p>
 
-<h1>Demonstration</h1>
+<h1 align="center">Demonstration</h1>
+
+<h2>Step 1: Applying Filters for Network Traffic</h2>
 
 <p>
 A filter has been applied for ICMP traffic AND the IPV6 address of a device connected to the router (android phone.) This filter will only show the packets of ICMP traffic that has this IPV6 address as either a source or a destination.
 </p>
 
 <img width="815" height="734" alt="demonstratincapturefilters" src="https://github.com/user-attachments/assets/13cd0c3c-5e6d-4b9d-972e-aba547d6ba8f" />
+
+<h2>Step 2: Creating Network Traffic</h2>
 
 <p>
  Now using the free app PingTools, the android phone will now ping Google.com and Facebook.com repectively.
@@ -153,6 +159,8 @@ A filter has been applied for ICMP traffic AND the IPV6 address of a device conn
 ![screensh2](https://github.com/user-attachments/assets/6acb7f2e-aead-4c3a-bc27-b66ab63e11d9)
 
 </h1>
+
+<h2>Step 3: Monitor Traffic</h2>
 
 <p>
  The replies and requests of these pings should show up immediately, demonstrating that the setup works as intended.
