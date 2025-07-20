@@ -141,7 +141,7 @@ Right click on the Local Area Connection and click "Properties".
 <h2>Step 1: Applying Filters for Network Traffic</h2>
 
 <p>
-A filter has been applied for ICMP traffic AND the IPV6 address of a specific device connected to the router (android phone.) This filter will only show the packets of ICMP traffic that has this IPV6 address as either a source or a destination. Doing so will demonstrate that this setup monitors both ingressive and regressive traffic.
+A filter has been applied for ICMP traffic AND the IPV6 address of a specific device connected to the router (android phone.) This filter will only show the packets of ICMP traffic that has this IPV6 address as either a source or a destination. This will demonstrate that this setup monitors both ingressive and regressive traffic.
 </p>
 
 <img width="815" height="734" alt="demonstratincapturefilters" src="https://github.com/user-attachments/assets/13cd0c3c-5e6d-4b9d-972e-aba547d6ba8f" />
