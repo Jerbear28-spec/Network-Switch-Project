@@ -5,7 +5,7 @@
 
 
 <h2>Project Overview</h2>
-In this project, all network traffic that flows through the router of a home network will be monitored using a managed network switch that supports "port-mirroring." The traffic will be monitored on a Windows 10 PC using the packet sniffing software, "Wireshark." This particular setup has various possible applications, mostly related to network security.<br />
+In this project, all wired and wireless network traffic of a home network will be monitored using a managed network switch that is configured with port-mirroring. The traffic will be monitored on a Windows 10 PC using the packet sniffing software, "Wireshark." This particular setup has various possible applications, mostly related to network security.<br />
 
 <h2>Visual Representation of Changes to Home Network Setup</h2>
 
@@ -17,7 +17,7 @@ In this project, all network traffic that flows through the router of a home net
 
 </h2>
 
-<h3>After Implementation of Network Switch:</h3>
+<h3>After Implementation of Managed Network Switch:</h3>
 
 <h2 align="center">
 
@@ -28,7 +28,7 @@ In this project, all network traffic that flows through the router of a home net
 <h2>Environments and Technologies Used</h2>
 
 - "Smart-Managed" Network Switch
-- 3 Cat6 Ethernet Cables
+- 3 Cat6a Ethernet Cables
 - Wireshark (Packet Sniffer)
 - Google Chrome (Used to configure settings on "web-managed" network switch)
 - PingTools (Networking tools application for Android)
@@ -55,14 +55,14 @@ The next step is to ensure you have the appropriate network switch for this setu
    
 ![image](https://github.com/user-attachments/assets/38483e11-a8f4-4cb0-974f-51fc678a19be)
 
-This particular network switch has 5 ports:
+This particular network switch has 5 Gigabit ports:
 
 - Port 1 will be used to connect the modem 
 - Port 2 will be used to connect the router
 - Port 3 will be used to connect to the PC with the packet sniffer installed (Wireshark).
 
 <p>
- This switch has a POE (power-over-ethernet) port, which can supply power to the switch. In this setup, the switch is powered by a separate power cable that is plugged into an outlet.
+ This switch has a POE (power-over-ethernet) port, which can supply power to the switch. In this setup, the switch is powered by a separate power cable that is plugged into an electrical outlet.
 </p>
 
 <h3>Step 3: Manually Configuring the Subnet of a Windows 10 PC</h3>
@@ -167,7 +167,7 @@ A filter has been applied for ICMP traffic AND the IPV6 address of a specific de
 <h2>Step 3: Monitor Traffic</h2>
 
 <p>
- The replies and requests of these pings should show up immediately, demonstrating that the setup works as intended.
+ The replies and requests of these pings show up immediately, demonstrating that the setup works as intended and actively shows wireless network traffic.
 </p>
 
 <h1 align="center">
